@@ -246,6 +246,23 @@
         
         
           
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
           <li class="menu-item menu-item-tags">
 
     
@@ -374,6 +391,9 @@
       
       
     
+      
+      
+    
     
 
   
@@ -414,12 +434,10 @@
             <div class="category-all-title">
               
               
-                
-              
               暂无分类
             </div>
             <div class="category-all">
-              <ul class="category-list"></ul>
+              
             </div>
           </div>
         
@@ -489,37 +507,7 @@
               
 
               
-                
-                
-                <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
-                    
-                    
-                      
-                    
-                    <span class="site-state-item-count">0</span>
-                    <span class="site-state-item-name">分类</span>
-                  </a>
-                </div>
-              
 
-              
-                
-                
-                <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">0</span>
-                    <span class="site-state-item-name">标签</span>
-                  </a>
-                </div>
               
             </nav>
           
@@ -1112,15 +1100,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'ITorsmRNwYzQRIbY8gPaP4X8-gzGzoHsz')
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'GN4czkmopea1DT4dFBu4yL6L-gzGzoHsz')
         .done(function({ api_server }) {
           var Counter = function(method, url, data) {
             return $.ajax({
               method: method,
               url: 'https://' + api_server + '/1.1' + url,
               headers: {
-                'X-LC-Id': 'ITorsmRNwYzQRIbY8gPaP4X8-gzGzoHsz',
-                'X-LC-Key': 'rGEwhzTfV7UFuCFLBLjuTmib',
+                'X-LC-Id': 'GN4czkmopea1DT4dFBu4yL6L-gzGzoHsz',
+                'X-LC-Key': '3l6Rwdowf3rJCMmN9vAAj2Om',
                 'Content-Type': 'application/json',
               },
               data: data
